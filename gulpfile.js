@@ -29,3 +29,12 @@ gulp.task('watchAll', function() {
   gulp.watch(['scss/**/*.scss'], ['compileSass']);
   gulp.watch('css/style.css', ['prefixer']);
 });
+
+//browser sync command
+/*
+  npm install -g browser-sync
+  npm install browser-sync --save-dev
+
+  browser-sync start --server --files "index.html" "css/*.css"
+
+*/
